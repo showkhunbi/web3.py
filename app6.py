@@ -6,6 +6,10 @@ web3 = Web3(Web3.HTTPProvider(infural_url))
 latest_block = web3.eth.blockNumber
 print(web3.isConnected())
 print(latest_block)
+# web3 = Web3(Web3.HTTPProvider(infural_url))
+# latest_block = web3.eth.blockNumber
+# print(web3.isConnected())
+# print(latest_block)
 
 
 # print(web3.eth.getBlock(latest_block))
